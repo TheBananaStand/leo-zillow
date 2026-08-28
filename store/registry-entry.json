@@ -12,7 +12,7 @@
     "command": "npx",
     "args": [
       "-y",
-      "https://github.com/TheBananaStand/leo-zillow-mcp/archive/PIN_ME.tar.gz"
+      "https://github.com/TheBananaStand/leo-zillow-mcp/archive/922f9706503560de0fdb0280222b359426c2c5d7.tar.gz"
     ]
   },
   "descriptor": {
