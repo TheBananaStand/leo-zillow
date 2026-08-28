@@ -1,0 +1,46 @@
+{
+  "name": "zillow-mcp",
+  "label": "Zillow",
+  "description": "Zillow listings, Zestimates and comparables, installed at runtime — no rebuild.",
+  "icon": "home",
+  "version": "1.0.0",
+  "author": "TheBananaStand",
+  "homepage": "https://github.com/TheBananaStand/leo-zillow-mcp",
+  "category": "package",
+  "mcp": {
+    "transport": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "https://github.com/TheBananaStand/leo-zillow-mcp/archive/PIN_ME.tar.gz"
+    ]
+  },
+  "descriptor": {
+    "fields": [
+      {
+        "key": "zillow_rapidapi_key",
+        "label": "RapidAPI Key",
+        "field_type": "password",
+        "required": true
+      }
+    ],
+    "entitlements": {
+      "settings_read": [
+        "zillow_rapidapi_key"
+      ],
+      "network": [
+        "real-time-zillow-data.p.rapidapi.com"
+      ],
+      "sends": [
+        {
+          "to": "real-time-zillow-data.p.rapidapi.com",
+          "classes": [
+            "search_queries",
+            "location"
+          ],
+          "purpose": "The place you are asking about — a city, ZIP or street address — plus any price and bedroom filters. Addresses are listed as location and not just as a search phrase, because searching for a home says where you live or intend to. No conversation, file or account data is attached."
+        }
+      ]
+    }
+  }
+}
