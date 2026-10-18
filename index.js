@@ -226,7 +226,7 @@ export function missingRequired(name, args) {
 }
 
 const server = new Server(
-  { name: "leo-zillow-mcp", version: "1.0.0" },
+  { name: "leo-zillow", version: "1.0.0" },
   { capabilities: { tools: {} } },
 );
 

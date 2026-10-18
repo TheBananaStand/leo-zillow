@@ -1,4 +1,4 @@
-# leo-zillow-mcp
+# leo-zillow
 
 Zillow real estate as a Leo package, over MCP — property search, Zestimates,
 comparables and recently sold, from the Real-Time Zillow Data API on RapidAPI.
