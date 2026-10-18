@@ -12,7 +12,7 @@
     "command": "npx",
     "args": [
       "-y",
-      "https://github.com/TheBananaStand/leo-zillow/archive/922f9706503560de0fdb0280222b359426c2c5d7.tar.gz"
+      "https://github.com/TheBananaStand/leo-zillow/archive/a1b9867aefb478e5c3aac930ab79116044ac0d7e.tar.gz"
     ]
   },
   "descriptor": {
